@@ -10,5 +10,18 @@ package week6;
  * @author 3bilyi81
  */
 public class Car {
-    
+
+    private String rP;
+
+    public Car(String rPIn) {
+        rP = rPIn;
+    }
+
+    public void setRP(String rpIn) {
+        rP = rpIn;
+    }
+
+    public String getRP() {
+        return rP;
+    }
 }
