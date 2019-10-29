@@ -21,6 +21,8 @@ public class Week6 {
 
         cp.addCar(new Car("08097"));
 
+        cp.removeCar("08097");
+
         System.out.println(cp.toString());
 
         System.out.println("Please select one of the following options: ");
@@ -30,9 +32,17 @@ public class Week6 {
         System.out.println("X - Quit");
         Scanner scanIn = new Scanner(System.in);
         String input = scanIn.nextLine();
-        scanIn.close();
-        System.out.println("You entered: " + input);
 
+        
+        if (input == "A") {
+            cp.addCar(new Car(""));
+            System.out.println("You have added a new car");
+        }
+        if (input == "B") {
+            cp.removeCar("");
+        }
+        
+        scanIn.close();
     }
 
 }

@@ -28,7 +28,7 @@ public class CarPark {
         return false;
     }
 
-    public boolean removeCar(int rpIn) {
+    public boolean removeCar(String rpIn) {
         for (int i = 0; i < carCarPark.length; i++) {
             if (carCarPark[i] != null) {
                 String carRP = carCarPark[i].getRP();
