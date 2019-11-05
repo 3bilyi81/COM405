@@ -9,13 +9,9 @@ package week7;
  *
  * @author 3bilyi81
  */
-public class Week7 {
+public class AdminStaff extends Employee {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
+    public AdminStaff(String nameIn, int payRateIn, int weekHoursIn, int holidayDaysIn) {
+        super(nameIn, payRateIn, weekHoursIn, holidayDaysIn);
     }
-    
 }

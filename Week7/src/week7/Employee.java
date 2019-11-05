@@ -10,5 +10,34 @@ package week7;
  * @author 3bilyi81
  */
 public class Employee {
-    
+
+    protected String name;
+    protected int payRate;
+    protected int weekHours;
+    protected int holidayDays;
+
+    public Employee(String nameIn, int payRateIn, int weekHoursIn, int holidayDaysIn) {
+        name = nameIn;
+        payRate = payRateIn;
+        weekHours = weekHoursIn;
+        holidayDays = holidayDaysIn;
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getpayRate() {
+        return payRate;
+    }
+
+    public int getweekHours() {
+        return weekHours;
+    }
+
+    public int getholidayDays() {
+        return holidayDays;
+    }
+
 }
